@@ -28,6 +28,7 @@ h1, h2, h3, h4 {
 #topNav{
   position: fixed; top: -4px; right: 3vw;
   text-align: right;
+  z-index: 100;
 }
 #topNav a{
   display: inline-block;
@@ -82,33 +83,54 @@ h1, h2, h3, h4 {
 
 #content1{
   position: absolute;
-  top: 110vh; left: 4vw;
+  top: 108vh; left: 4vw;
   width: 23vw;
   font-size: 1.8vw;
 }
+#efforts{ top: 104vh; }
+#efforts a{ color: #0086B9; }
+.content{
+  position: relative;
+  top: 12vh; left: 6vw;
+  width: 88vw;
+  font-size: 1.8vw;
+}
+#image{
+  position: absolute; top: 0; left: 0;
+  background-image: url(hop.jpg);
+  width: 88vw; height: 84vh;
+  background-size: cover;
+  opacity: 0.3;
+}
+#resources{
+  position: absolute; top: 0; left: 0;
+  width: 88vw;
+}
+#resources a{ color: black; position: absolute; font-size: 3vw; }
+#b { top: 8vh; left: 26vw; }
+#c { top: 23vh; left: 10vw; }
+#d { top: 22vh; left: 54vw; }
+#e { top: 46vh; left: 6vw; }
+#f { top: 68vh; left: 17vw; }
+#g { top: 42vh; left: 60vw; }
 
-#content2{
-  position: absolute;
-  top: 14vh; left: 6vw;
-  width: 88vw;
-  font-size: 1.8vw;
-}
-#content3{
-  position: absolute;
-  top: 14vh; left: 6vw;
-  width: 88vw;
-  font-size: 1.8vw;
-}
 #artists{
   justify-content: space-evenly;
   padding-top: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-evenly;
 }
 #artists a{
   text-align: center;
-  margin-right: 20px;
   padding: 10px 10px 10px 10px;
   color: #0086B9;
   border: 2px solid #0086B9;
   text-decoration: none;
 }
+#othernet{
+  margin: auto;
+  width: 640px;
+  text-align: center;
+}
+#othernet a{ color: #004463; }
